@@ -1,0 +1,8 @@
+<h1>What is your Favorite Music?</h1>
+
+<p class="lead">Search and explore music from Spotify application</p>
+<form>
+    <div class="form-group">
+        <input type="text" name="searchStr" [(ngModel)]="searchStr" (keyup)="searchMusic()" class="form-control" placeholder="Search Music...">
+    </div>
+</form>
